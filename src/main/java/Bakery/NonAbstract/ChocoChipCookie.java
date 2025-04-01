@@ -10,7 +10,7 @@ public class ChocoChipCookie extends Cookie {
         this.chipCount = chipCount;
     }
 
-    //METHOD TO MODIFY THE ATRIBUTES OF CHOCCHIP COOKIE
+    //METHOD TO MODIFY THE ATTRIBUTES OF CHOCCHIP COOKIE
 
     public void addChips() {
         System.out.println("Adding " + chipCount + " chocolate chips!");
