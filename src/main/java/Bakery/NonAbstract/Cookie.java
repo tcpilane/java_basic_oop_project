@@ -24,12 +24,20 @@ public class Cookie {
         System.out.println("Baking the " + flavor + " cookie...");
     }
 
-
-
     public void displayInfo() {
         System.out.println("Flavor: " + flavor);
         System.out.println("Shape: " + shape);
         System.out.println("Size: " + size + "cm");
+    }
+
+    public static void jar(int size1, int size2) {
+        System.out.println("Jaring the " + flavor + " cookie...");
+        int size3 = size1+size2;
+        System.out.println("The jar size is: " + size3);
+    }
+
+    public static void main(String[] args) {
+        jar(8,5);
     }
 }
 
