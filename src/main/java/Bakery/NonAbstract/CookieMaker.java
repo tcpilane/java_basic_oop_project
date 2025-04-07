@@ -3,7 +3,7 @@ package Bakery.NonAbstract;
 public class CookieMaker {
     public static void main(String[] args) {
         // Creating objects (cookies)
-        Cookie chocoChip = new ChocoChipCookie("Chocolate Chip", "Circle", 5,20);
+        Cookie chocoChip = new ChocoChipCookie("Chocolate Chip");
         Cookie sugarCookie = new SugarCookie("Sugar", "Star", 7);
 
         // Using the objects4

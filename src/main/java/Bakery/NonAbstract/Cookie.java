@@ -30,9 +30,14 @@ public class Cookie {
         System.out.println("Size: " + size + "cm");
     }
 
+
+    public void flavorJar() {
+        System.out.println("Jaring the " + flavor + " cookie...");
+    }
+
     public static void jar(int size1, int size2) {
         // There can only be 13 cookies in the jar
-        System.out.println("Jaring the " + flavor + " cookie...");
+
         int size3 = size1+size2;
         System.out.println("The jar size is: " + size3);
         if (size3 > 13) {
@@ -42,6 +47,11 @@ public class Cookie {
 
     public static void main(String[] args) {
         jar(10, 5);
+        MatchaCookie mc = new MatchaCookie("matcha");
+        ChocoChipCookie cc = new ChocoChipCookie("chocolate chip");
+        mc.flavorJar();
+        cc.flavorJar();
+
     }
 }
 
