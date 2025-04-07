@@ -2,7 +2,7 @@ package Bakery.NonAbstract;
 
 public class Cookie {
     // Attributes (Properties of the cookie)
-    private String flavor;
+    protected static String flavor;
     private String shape;
     private int size; // in cm
 
