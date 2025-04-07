@@ -31,13 +31,17 @@ public class Cookie {
     }
 
     public static void jar(int size1, int size2) {
+        // There can only be 13 cookies in the jar
         System.out.println("Jaring the " + flavor + " cookie...");
         int size3 = size1+size2;
         System.out.println("The jar size is: " + size3);
+        if (size3 > 13) {
+            System.out.println("Too many cookies in the jar!");
+        }
     }
 
     public static void main(String[] args) {
-        jar(8,5);
+        jar(10, 5);
     }
 }
 
